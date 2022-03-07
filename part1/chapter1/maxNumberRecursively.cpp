@@ -5,8 +5,8 @@
 using namespace std;
 
 //recursive algorithm to find the largest number of array with integers
-//when the array has length in power of two
-//n-1 comparisons
+//where array length is a power of 2.
+//n-1 comparisons (not counting the base comparison)
 
 int largestNumber(int v[], int l_bound, int u_bound){
 		
@@ -32,6 +32,6 @@ int main(){
 	
 	int v[8] = {17,3,-2,13,7,6,4,116};
 	int s = largestNumber(v, 0, 7);
-	cout << "The largest number is: " << s << endl;
+	cout << "The largest number is: " << s << "\n";
 	
 }
