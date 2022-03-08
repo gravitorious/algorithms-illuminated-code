@@ -85,9 +85,7 @@ deque<long long> addTwoNumbers(deque<long long> dx, deque<long long> dy, int siz
 	//3) convert the result back to deque
 	long long dxInt = dequeToInt(dx, size);
 	long long dyInt = dequeToInt(dy, size);
-	cout <<"o prwtos se int: " << dxInt << " o deuteros " << dyInt << endl;
 	long long result = dxInt + dyInt;
-	cout << "The result is: " << result << "\n";
 	deque<long long> addition_result;
 	convertIntToDeque(addition_result, result);
 	return addition_result;
@@ -97,33 +95,20 @@ deque<long long> addTwoNumbers(deque<long long> dx, deque<long long> dy, int siz
 
 long long karatsubaProduct(deque<long long> dx, deque<long long> dy, int size){
 	if(size == 1){
-		cout << " mphka " << dx[0] * dy[0] << endl;
 		return (dx[0] * dy[0]);
 	}
 	
 	deque<long long> first_dx = firstHalf(dx, size);
 	deque<long long> second_dx = secondHalf(dx, size);
-	printDeque(first_dx);
-	printDeque(second_dx);
 	deque<long long> first_dy = firstHalf(dy, size);
 	deque<long long> second_dy = secondHalf(dy, size);
-	printDeque(first_dy);
-	printDeque(second_dy);
 	deque<long long> p = addTwoNumbers(first_dx, second_dx, size/2);
 	deque<long long> q = addTwoNumbers(first_dy, second_dy, size/2);
 	//Now we maybe need to add zeros but there is a possibility that 
 	//the addition added one more digit. If the addition adds one more digit
 	//we may need to increase the size.
-	//cout <<"addition results" << endl;
-	//printDeque(p);
-	//printDeque(q);
 	int mostDigits2 = returnMostDigits(p, q);
-	//cout << "most digits are: " << mostDigits2 << endl;
 	int mostDigits = appendZeros(p, q, mostDigits2);
-	cout << "most digits after appending are: " << mostDigits << endl;
-	//printDeque(p);
-	//printDeque(q);
-
 
 	long long ac = karatsubaProduct(first_dx, first_dy, size/2);
 	long long bd = karatsubaProduct(second_dx, second_dy, size/2);
@@ -134,8 +119,6 @@ long long karatsubaProduct(deque<long long> dx, deque<long long> dy, int size){
 	return pow(10, size) * ac + pow(10, size/2) * adbc + bd;
 	
 }
-
-
 
 
 
@@ -153,9 +136,6 @@ int main(){
 	convertIntToDeque(dy, y);
 	int mostDigits = returnMostDigits(dx, dy);
 	mostDigits = appendZeros(dx, dy, mostDigits); //size is changing because we append zeros
-	//printDeque(dx);
-	//printDeque(dy);
-	cout << "Ta sunolika psifia prin ksekinisoume ienai: " << mostDigits << endl;
 	long long mult_result = karatsubaProduct(dx, dy, mostDigits);
 	cout << "the result is: " << mult_result << "\n";
 }
