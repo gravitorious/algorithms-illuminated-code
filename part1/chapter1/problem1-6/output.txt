@@ -1,0 +1,391 @@
+Ta sunolika psifia prin ksekinisoume ienai: 8
+1
+2
+3
+4
+
+1
+2
+3
+4
+
+5
+6
+7
+8
+
+1
+2
+3
+4
+
+o prwtos se int: 1234 o deuteros 1234
+The result is: 2468
+o prwtos se int: 5678 o deuteros 1234
+The result is: 6912
+most digits after appending are: 4
+1
+2
+
+3
+4
+
+5
+6
+
+7
+8
+
+o prwtos se int: 12 o deuteros 34
+The result is: 46
+o prwtos se int: 56 o deuteros 78
+The result is: 134
+most digits after appending are: 4
+1
+
+2
+
+5
+
+6
+
+o prwtos se int: 1 o deuteros 2
+The result is: 3
+o prwtos se int: 5 o deuteros 6
+The result is: 11
+most digits after appending are: 2
+ mphka 5
+ mphka 12
+0
+
+3
+
+1
+
+1
+
+o prwtos se int: 0 o deuteros 3
+The result is: 3
+o prwtos se int: 1 o deuteros 1
+The result is: 2
+most digits after appending are: 1
+ mphka 0
+ mphka 3
+ mphka 6
+3
+
+4
+
+7
+
+8
+
+o prwtos se int: 3 o deuteros 4
+The result is: 7
+o prwtos se int: 7 o deuteros 8
+The result is: 15
+most digits after appending are: 2
+ mphka 21
+ mphka 32
+0
+
+7
+
+1
+
+5
+
+o prwtos se int: 0 o deuteros 7
+The result is: 7
+o prwtos se int: 1 o deuteros 5
+The result is: 6
+most digits after appending are: 1
+ mphka 0
+ mphka 35
+ mphka 42
+0
+0
+
+4
+6
+
+0
+1
+
+3
+4
+
+o prwtos se int: 0 o deuteros 46
+The result is: 46
+o prwtos se int: 1 o deuteros 34
+The result is: 35
+most digits after appending are: 2
+0
+
+0
+
+0
+
+1
+
+o prwtos se int: 0 o deuteros 0
+The result is: 0
+o prwtos se int: 0 o deuteros 1
+The result is: 1
+most digits after appending are: 1
+ mphka 0
+ mphka 0
+ mphka 0
+4
+
+6
+
+3
+
+4
+
+o prwtos se int: 4 o deuteros 6
+The result is: 10
+o prwtos se int: 3 o deuteros 4
+The result is: 7
+most digits after appending are: 2
+ mphka 12
+ mphka 24
+1
+
+0
+
+0
+
+7
+
+o prwtos se int: 1 o deuteros 0
+The result is: 1
+o prwtos se int: 0 o deuteros 7
+The result is: 7
+most digits after appending are: 1
+ mphka 0
+ mphka 0
+ mphka 7
+4
+
+6
+
+3
+
+5
+
+o prwtos se int: 4 o deuteros 6
+The result is: 10
+o prwtos se int: 3 o deuteros 5
+The result is: 8
+most digits after appending are: 2
+ mphka 12
+ mphka 30
+1
+
+0
+
+0
+
+8
+
+o prwtos se int: 1 o deuteros 0
+The result is: 1
+o prwtos se int: 0 o deuteros 8
+The result is: 8
+most digits after appending are: 1
+ mphka 0
+ mphka 0
+ mphka 8
+1
+2
+
+3
+4
+
+1
+2
+
+3
+4
+
+o prwtos se int: 12 o deuteros 34
+The result is: 46
+o prwtos se int: 12 o deuteros 34
+The result is: 46
+most digits after appending are: 2
+1
+
+2
+
+1
+
+2
+
+o prwtos se int: 1 o deuteros 2
+The result is: 3
+o prwtos se int: 1 o deuteros 2
+The result is: 3
+most digits after appending are: 1
+ mphka 1
+ mphka 4
+ mphka 9
+3
+
+4
+
+3
+
+4
+
+o prwtos se int: 3 o deuteros 4
+The result is: 7
+o prwtos se int: 3 o deuteros 4
+The result is: 7
+most digits after appending are: 1
+ mphka 9
+ mphka 16
+ mphka 49
+4
+
+6
+
+4
+
+6
+
+o prwtos se int: 4 o deuteros 6
+The result is: 10
+o prwtos se int: 4 o deuteros 6
+The result is: 10
+most digits after appending are: 2
+ mphka 16
+ mphka 36
+1
+
+0
+
+1
+
+0
+
+o prwtos se int: 1 o deuteros 0
+The result is: 1
+o prwtos se int: 1 o deuteros 0
+The result is: 1
+most digits after appending are: 1
+ mphka 1
+ mphka 0
+ mphka 1
+2
+4
+
+6
+8
+
+6
+9
+
+1
+2
+
+o prwtos se int: 24 o deuteros 68
+The result is: 92
+o prwtos se int: 69 o deuteros 12
+The result is: 81
+most digits after appending are: 2
+2
+
+4
+
+6
+
+9
+
+o prwtos se int: 2 o deuteros 4
+The result is: 6
+o prwtos se int: 6 o deuteros 9
+The result is: 15
+most digits after appending are: 2
+ mphka 12
+ mphka 36
+0
+
+6
+
+1
+
+5
+
+o prwtos se int: 0 o deuteros 6
+The result is: 6
+o prwtos se int: 1 o deuteros 5
+The result is: 6
+most digits after appending are: 1
+ mphka 0
+ mphka 30
+ mphka 36
+6
+
+8
+
+1
+
+2
+
+o prwtos se int: 6 o deuteros 8
+The result is: 14
+o prwtos se int: 1 o deuteros 2
+The result is: 3
+most digits after appending are: 2
+ mphka 6
+ mphka 16
+1
+
+4
+
+0
+
+3
+
+o prwtos se int: 1 o deuteros 4
+The result is: 5
+o prwtos se int: 0 o deuteros 3
+The result is: 3
+most digits after appending are: 1
+ mphka 0
+ mphka 12
+ mphka 15
+9
+
+2
+
+8
+
+1
+
+o prwtos se int: 9 o deuteros 2
+The result is: 11
+o prwtos se int: 8 o deuteros 1
+The result is: 9
+most digits after appending are: 2
+ mphka 72
+ mphka 2
+1
+
+1
+
+0
+
+9
+
+o prwtos se int: 1 o deuteros 1
+The result is: 2
+o prwtos se int: 0 o deuteros 9
+The result is: 9
+most digits after appending are: 1
+ mphka 0
+ mphka 9
+ mphka 18
+the result is: 700750495602756
