@@ -2,7 +2,7 @@
 
 #include <bits/stdc++.h>
 /*
- * Recursive algorithm to count inversions on array. 
+ * Recursive algorithm to count the number of inversions in an array. 
  * O(nlogn)
  * We have modified the mergesort algorithm from the previous chapter.
  * To test our algorithm we have used the <<Challenge data set>> from the
