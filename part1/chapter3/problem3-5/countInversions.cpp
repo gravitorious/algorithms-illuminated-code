@@ -86,6 +86,6 @@ int main(){
 	}
 	long long inv = 0;
 	vector<long long> result = sortAndCountInversions(a, &inv);
-	cout << "The number of Inversions are: " << inv << "\n";
+	cout << "The number of Inversions is: " << inv << "\n";
 	
 }
