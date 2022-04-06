@@ -15,7 +15,6 @@ int myUniRand(int a, int b){
 int partition(vector<int> &A, int l, int r){
 	int p = A[l];
 	int i = l+1;
-	cout << " einai l kai r: " << l << " " << r << "\n";
 	for(int j = l+1; j < r+1; j++){
 		if(A[j] < p){
 			swap(A[j], A[i]);
@@ -68,16 +67,12 @@ void quicksort(vector<int> &A, int l, int r, int *comparisons){
 	int i = chooseMedianOfThree(A, l, r);
 	swap(A[l], A[i]);
 	int j = partition(A, l, r);
-	for(auto &x : A){
-		cout << x << "\n";
-	}
-	cout << "pivot position " << j << "\n";
 	quicksort(A, l, j-1, comparisons);
 	quicksort(A, j+1, r, comparisons);
 	*comparisons = *comparisons + (r-l);
 
 }
-
+	
 int main(){
 	ios::sync_with_stdio(false);
 	cin.tie(0);
